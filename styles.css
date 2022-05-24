@@ -1,0 +1,56 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(28, 27, 25);
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    border: 1px solid red;
+}
+
+head{
+    margin: 0;
+    padding: 0;
+   
+    border: 1px solid blue;
+}
+
+
+.header{
+    background-image: url(img/film-102681_1920.jpg);
+    background-position: center;
+    opacity: 50%;
+    height: 10em;
+    min-width: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green ;
+}
+
+.title{
+    display: flex;
+    font-weight: 800;
+    font-size: 2rem;
+    position: absolute;
+    top: 5%;
+    margin: 1em;
+}
+
+.secondary{
+    display: flex;
+    font-weight: 700;
+    font-size: .75rem;
+    position: absolute;
+    top: 13%;
+    right: 2%;
+    margin: 1em;
+}
+
+.searchBar{
+    border: 1px solid pink;
+    background-color: #2E2E2F;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
